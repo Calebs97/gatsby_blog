@@ -1,0 +1,2 @@
+webpackJsonp([35783957827783],{199:function(e,l,t){"use strict";function u(e){return e&&e.__esModule?e:{default:e}}l.__esModule=!0;var n=t(5),a=u(n);l.default=function(){return a.default.createElement("div",null,a.default.createElement("h1",null,"Caleb Siu"),a.default.createElement("div",null,a.default.createElement("p",null,"Hallo I'm cleb."),a.default.createElement("p",null,"Welcome to my website!")))},e.exports=l.default}});
+//# sourceMappingURL=component---src-pages-index-js-1e618618792ca4bd856f.js.map
