@@ -6,9 +6,8 @@ class Footer extends Component {
       <footer id="footer">
         <div class="inner">
           <ul class="icons">
-            <li><a href="#" class="icon fa-twitter"><span class="label">Twitter</span></a></li>
-            <li><a href="#" class="icon fa-github"><span class="label">Github</span></a></li>
-            <li><a href="#" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
+            <li><a href="http://github.com/calebs97/" class="icon fa-github"><span class="label">Github</span></a></li>
+            <li><a href="calebs11@berkeley.edu" class="icon fa-envelope-o"><span class="label">Email</span></a></li>
           </ul>
         </div>
       </footer>

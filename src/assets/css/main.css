@@ -2122,7 +2122,7 @@ input, select, textarea {
 
 			.image.avatar img {
 				border-radius: 100%;
-				width: 150%;
+				width: 100%;
 			}
 
 /* List */
@@ -2579,9 +2579,9 @@ input, select, textarea {
 		color: rgba(255, 255, 255, 0.5);
 		height: 100%;
 		left: 0;
-		padding: 8em 4em;
+		padding: 4em 4em;
 		position: fixed;
-		text-align: right;
+		text-align: center;
 		top: 0;
 		width: 35%;
 	}
@@ -2619,7 +2619,7 @@ input, select, textarea {
 
 		#header .image.avatar {
 			margin: 0 0 1em 0;
-			width: 6.25em;
+			width: 14.25em;
 		}
 
 /* Footer */
@@ -2964,7 +2964,7 @@ input, select, textarea {
 		/* Header */
 
 			#header {
-				padding: 6em 3em 3em 3em;
+				padding: 3em 3em 3em 3em;
 				width: 30%;
 			}
 
