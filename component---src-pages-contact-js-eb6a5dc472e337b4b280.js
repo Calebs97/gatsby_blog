@@ -1,2 +1,0 @@
-webpackJsonp([70144966829960],{198:function(e,t,l){"use strict";function u(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var a=l(5),n=u(a);t.default=function(){return n.default.createElement("div",null,n.default.createElement("h1",null,"Contact"),n.default.createElement("p",null,"Email me at ",n.default.createElement("a",{href:"calebs11@berkeley.edu"},"calebs11@berkeley.edu"),"!"))},e.exports=t.default}});
-//# sourceMappingURL=component---src-pages-contact-js-eb6a5dc472e337b4b280.js.map

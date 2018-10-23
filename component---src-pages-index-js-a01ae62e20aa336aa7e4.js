@@ -1,2 +1,0 @@
-webpackJsonp([35783957827783],{196:function(e,t,l){"use strict";function u(e){return e&&e.__esModule?e:{default:e}}t.__esModule=!0;var a=l(6),n=u(a);t.default=function(){return n.default.createElement("div",{style:{margin:"3rem auto",maxWidth:600}},n.default.createElement("h1",null,"About me"),n.default.createElement("div",null,n.default.createElement("p",null,"Hallo I'm cleb."),n.default.createElement("p",null,"This is my life!")))},e.exports=t.default}});
-//# sourceMappingURL=component---src-pages-index-js-a01ae62e20aa336aa7e4.js.map
