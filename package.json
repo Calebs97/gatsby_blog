@@ -5,6 +5,7 @@
   "homepage": "https://www.cleb.life/",
   "dependencies": {
     "ajv": "^6.5.4",
+    "node-sass": "^4.9.4",
     "react": "^16.5.2",
     "react-dom": "^16.5.2",
     "react-scripts": "2.0.5"
@@ -15,7 +16,8 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d build"
+    "deploy": "gh-pages -d build",
+    "build-css": "node-sass --include-path scss src/sass/main.scss   src/css/main.css"
   },
   "eslintConfig": {
     "extends": "react-app"
