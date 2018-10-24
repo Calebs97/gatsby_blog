@@ -5,7 +5,7 @@ class Header extends Component {
   render() {
     return (
       <header id="tab">
-      <h1><a href="index.html">Cleb's Life</a></h1>
+      <h1><a href="https://cleb.life">Cleb's Life</a></h1>
       <nav class="links">
         <ul>
           <li><a href="#">About</a></li>

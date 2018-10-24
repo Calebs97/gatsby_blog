@@ -13,7 +13,7 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
 
-$size-header-width: 35%;
+$size-header-width: 28%;
 $size-header-pad: 4em;
 
 // Breakpoints.
@@ -1857,11 +1857,11 @@ $size-header-pad: 4em;
 			#header {
 				padding: ($size-header-pad * 3) $size-header-pad;
 
-				h1 {
-					br {
-						display: none;
-					}
-				}
+				// h1 {
+				// 	br {
+				// 		display: none;
+				// 	}
+				// }
 			}
 
 		/* Footer */

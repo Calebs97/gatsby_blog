@@ -1774,7 +1774,7 @@ input[type="button"],
   position: fixed;
   text-align: center;
   top: 0;
-  width: 35%; }
+  width: 28%; }
   #header > * {
     -moz-flex-shrink: 0;
     -webkit-flex-shrink: 0;
@@ -1827,10 +1827,10 @@ input[type="button"],
 
 /* Main */
 #main {
-  margin-left: 35%;
+  margin-left: 28%;
   max-width: 54em;
   padding: 8em 4em 4em 4em;
-  width: calc(100% - 35%); }
+  width: calc(100% - 28%); }
   #main > section {
     border-top: solid 2px #efefef;
     margin: 4em 0 0 0;
@@ -2178,8 +2178,6 @@ body.is-touch .poptrox-popup .closer {
   /* Header */
   #header {
     padding: 4.5em 1.5em; }
-    #header h1 br {
-      display: none; }
   /* Footer */
   #footer .copyright li {
     border-left-width: 0;

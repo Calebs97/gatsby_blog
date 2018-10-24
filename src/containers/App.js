@@ -3,7 +3,6 @@ import '../assets/css/main.css';
 import Sidebar from '../components/Sidebar';
 import Main from '../components/Main';
 import Header from '../components/Header';
-import Footer from '../components/Footer';
 import Work from '../components/Work';
 
 class App extends Component {
@@ -16,7 +15,6 @@ class App extends Component {
           <Main/>
           <Work/>
         </div>
-        <Footer/>
       </div>
     );
   }
