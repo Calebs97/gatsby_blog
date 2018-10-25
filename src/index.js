@@ -14,8 +14,8 @@ ReactDOM.render(
   <Router history={createHistory({ basename: process.env.PUBLIC_URL })}>
     <Switch>
       <Route path="/" exact component={Index} />
-      <Route path={'/about'} exact component={About} />
-      <Route path={'/contact'} exact component={Contact} />
+      <Route path={'/about'} component={About} />
+      <Route path={'/contact'} component={Contact} />
 
 
       {/* <Route component={NotFound} status={404} /> */}
