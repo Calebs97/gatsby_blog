@@ -13,7 +13,7 @@ import Contact from './pages/Contact';
 ReactDOM.render(
   <Router history={createHistory({ basename: process.env.PUBLIC_URL })}>
     <Switch>
-      <Route path="/" exact component={Index} />
+      {/* <Route path="/" exact component={Index} /> */}
       <Route path={'/about'} exact component={About} />
       <Route path={'/contact'} exact component={Contact} />
 
