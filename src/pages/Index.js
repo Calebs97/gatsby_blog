@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { Link } from 'react-router-dom';
+import Helmet from 'react-helmet';
 
 import Main from "../containers/Main"
 
@@ -7,6 +8,7 @@ class Index extends Component {
   render() {
     return (
       <Main>
+        <Helmet title="Caleb Siu" />
         <section id="one">
           <header class="major">
             <h2>I'm a software engineer in the Bay Area... </h2>
