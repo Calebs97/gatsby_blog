@@ -10,11 +10,11 @@ import Contact from './pages/Contact';
 
 
 ReactDOM.render(
-  <Router>
+  <Router basename={process.env.PUBLIC_URL}>
     <Switch>
       <Route path="/" exact component={Index} />
-      <Route path={`${process.env.PUBLIC_URL}/about`} component={About} />
-      <Route path={`${process.env.PUBLIC_URL}/contact`} component={Contact} />
+      <Route path={'/about'} component={About} />
+      <Route path={'contact'} component={Contact} />
 
 
       {/* <Route component={NotFound} status={404} /> */}
