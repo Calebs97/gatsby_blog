@@ -2,7 +2,7 @@
   "name": "react_personal_website",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://www.cleb.life/",
+  "homepage": "https://cleb.life/",
   "dependencies": {
     "ajv": "^6.5.4",
     "js-cookie": "^2.2.0",
