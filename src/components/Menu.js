@@ -42,12 +42,12 @@ class Hamburger extends Component {
         </nav>
         <Menu right isOpen={this.state.open}>
           <ul className="hamburger-ul">
-          <li><a href="#"><h3>Cleb's Life</h3></a></li>
-          <li><a href="About"><h3>About</h3></a></li>
-          <li><a href="Things"><h3>Things I've Done</h3></a></li>
-          <li><a href="Resume"><h3>Resume</h3></a></li>
-          <li><a href="Food"><h3>Food</h3></a></li>
-          <li><a href="Contact"><h3>Contact</h3></a></li>
+          <li><a href="/"><h3>Cleb's Life</h3></a></li>
+          <li><a href="/about"><h3>About</h3></a></li>
+          <li><a href="/"><h3>Things I've Done</h3></a></li>
+          <li><a href="/"><h3>Resume</h3></a></li>
+          <li><a href="/"><h3>Food</h3></a></li>
+          <li><a href="/contact"><h3>Contact</h3></a></li>
           </ul>
         </Menu>
       </div>

@@ -5,7 +5,7 @@ class Sidebar extends Component {
     return (
       <header id="header">
           <div class="inner">
-            <a href="https://cleb.life" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
+            <a href="/" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
             <h1><strong>Caleb Siu</strong><br />
               <strong>calebs11@berkeley.edu</strong><br /></h1>
               <br />
