@@ -15,8 +15,6 @@ ReactDOM.render(
       <Route path="/" exact component={Index} />
       <Route path={'/about'} component={About} />
       <Route path={'/contact'} component={Contact} />
-
-
       {/* <Route component={NotFound} status={404} /> */}
     </Switch>
   </Router>,
