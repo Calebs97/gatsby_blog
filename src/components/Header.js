@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import Hamburger from "./Menu"
-import About from "../pages/About"
 import { Link } from 'react-router-dom';
 
 class Header extends Component {

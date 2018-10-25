@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Menus from 'react-burger-menu';
+import { Link } from 'react-router-dom';
 
 
 const Menu = Menus.slide;
@@ -42,12 +43,12 @@ class Hamburger extends Component {
         </nav>
         <Menu right isOpen={this.state.open}>
           <ul className="hamburger-ul">
-          <li><a href="/"><h3>Cleb's Life</h3></a></li>
-          <li><a href="/about"><h3>About</h3></a></li>
-          <li><a href="/"><h3>Things I've Done</h3></a></li>
-          <li><a href="/"><h3>Resume</h3></a></li>
-          <li><a href="/"><h3>Food</h3></a></li>
-          <li><a href="/contact"><h3>Contact</h3></a></li>
+            <li><Link to='/'><h3>Cleb's Life</h3> </Link></li>
+            <li><Link to='/about'><h3>About</h3></Link></li>
+            <li><Link to='/'><h3>Things I've Done</h3></Link></li>
+            <li><Link to='/'><h3>Resume</h3></Link></li>
+            <li><Link to='/'><h3>Food</h3></Link></li>
+            <li><Link to='/contact'><h3>Contact</h3></Link></li>
           </ul>
         </Menu>
       </div>
