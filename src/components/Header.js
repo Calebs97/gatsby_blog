@@ -10,11 +10,11 @@ class Header extends Component {
       <h1><a href="/">Cleb's Life</a></h1>
       <nav class="links">
         <ul>
-          <Link to='/about'>About </Link>
-          <Link to='/'>Things I've Done </Link>
-          <Link to='/'>Resume </Link>
-          <Link to='/'>Food </Link>
-          <Link to='/contact'>Contacts </Link>
+          <li><Link to='/about'>About </Link></li>
+          <li><Link to='/'>Things I've Done </Link></li>
+          <li><Link to='/'>Resume </Link></li>
+          <li><Link to='/'>Food </Link></li>
+          <li><Link to='/contact'>Contacts </Link></li>
         </ul>
       </nav>
       <Hamburger />
