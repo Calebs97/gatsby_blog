@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorker from './serviceWorker';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import createHistory from "history/createBrowserHistory";
 
 import Index from './pages/Index';
 import About from './pages/About';
@@ -10,11 +11,11 @@ import Contact from './pages/Contact';
 
 
 ReactDOM.render(
-  <Router basename={process.env.PUBLIC_URL}>
+  <Router history={createHistory({ basename: process.env.PUBLIC_URL })}>
     <Switch>
       <Route path="/" exact component={Index} />
-      <Route path={'/about'} component={About} />
-      <Route path={'contact'} component={Contact} />
+      <Route path={'/about'} exact component={About} />
+      <Route path={'/contact'} exact component={Contact} />
 
 
       {/* <Route component={NotFound} status={404} /> */}
