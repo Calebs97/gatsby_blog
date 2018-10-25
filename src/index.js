@@ -9,7 +9,7 @@ import Index from './pages/Index';
 import About from './pages/About';
 import Contact from './pages/Contact';
 
-
+console.log('a' + process.env.PUBLIC_URL)
 ReactDOM.render(
   <Router history={createHistory({ basename: process.env.PUBLIC_URL })}>
     <Switch>
