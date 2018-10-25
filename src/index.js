@@ -13,8 +13,8 @@ ReactDOM.render(
   <Router>
     <Switch>
       <Route path="/" exact component={Index} />
-      <Route path="/about" component={About} />
-      <Route path="/contact" component={Contact} />
+      <Route path={`${process.env.PUBLIC_URL}/about`} component={About} />
+      <Route path={`${process.env.PUBLIC_URL}/contact`} component={Contact} />
 
 
       {/* <Route component={NotFound} status={404} /> */}
