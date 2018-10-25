@@ -11,9 +11,9 @@ import Contact from './pages/Contact';
 
 console.log('a' + process.env.PUBLIC_URL)
 ReactDOM.render(
-  <Router history={createHistory({ basename: process.env.PUBLIC_URL })}>
+  <Router history={createHistory({ basename: "https://cleb.life" })}>
     <Switch>
-      <Route path="/" exact component={Index} />
+      {/* <Route path="/" exact component={Index} /> */}
       <Route path={'/about'} component={About} />
       <Route path={'/contact'} component={Contact} />
 
