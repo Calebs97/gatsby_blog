@@ -9,9 +9,8 @@ import Index from './pages/Index';
 import About from './pages/About';
 import Contact from './pages/Contact';
 
-console.log('a' + process.env.PUBLIC_URL)
 ReactDOM.render(
-  <Router history={createHistory({ basename: "https://cleb.life" })}>
+  <Router history={createHistory({ basename: process.env.PUBLIC_URL })}>
     <Switch>
       <Route path="/" exact component={Index} />
       <Route path={'/about'} component={About} />

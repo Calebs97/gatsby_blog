@@ -11,10 +11,10 @@ class Header extends Component {
       <nav class="links">
         <ul>
           <Link to='/about'>About </Link>
-          <li><a href="/">Things I've Done</a></li>
-          <li><a href="/">Resume</a></li>
-          <li><a href="/">Food</a></li>
-          <li><a href="/contact">Contact</a></li>
+          <Link to='/'>Things I've Done </Link>
+          <Link to='/'>Resume </Link>
+          <Link to='/'>Food </Link>
+          <Link to='/contact'>Contacts </Link>
         </ul>
       </nav>
       <Hamburger />
