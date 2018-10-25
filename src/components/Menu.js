@@ -45,10 +45,10 @@ class Hamburger extends Component {
           <ul className="hamburger-ul">
             <li><Link to='/'><h3>Cleb's Life</h3> </Link></li>
             <li><Link to='/about'><h3>About</h3></Link></li>
-            <li><Link to='/'><h3>Things I've Done</h3></Link></li>
-            <li><Link to='/'><h3>Resume</h3></Link></li>
-            <li><Link to='/'><h3>Food</h3></Link></li>
+            <li><Link to='/work'><h3>Things I've Done</h3></Link></li>
+            <li><Link to='/food'><h3>Food</h3></Link></li>
             <li><Link to='/contact'><h3>Contact</h3></Link></li>
+            <li><Link to='/site'><h3>This Site</h3></Link></li>
           </ul>
         </Menu>
       </div>

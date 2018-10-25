@@ -1,4 +1,6 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
+
 import Main from "../containers/Main"
 
 class Index extends Component {
@@ -31,7 +33,7 @@ class Index extends Component {
 							</article>
 						</div>
 						<ul class="actions">
-							<li><a href="#" class="button">Full Work History</a></li>
+							<li><a href="/work" class="button">Full Work History</a></li>
 						</ul>
 			  </section>
       </Main>

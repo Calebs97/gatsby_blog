@@ -29,9 +29,6 @@ export default class About extends Component {
                 <li>Become more SWE and do things like build this website</li>
                 <li> PLAY!!!!!!!! </li>
               </ul>
-
-
-
               </p>
             </section>
         </Main>
