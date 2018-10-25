@@ -17,11 +17,11 @@ class Index extends Component {
             (okok just a subset of those things)  <br/>
             also interested in capitalistic ideas like options trading, behavioral economics, and other fun stuff!!</p>
           <ul class="actions">
-            <li><a href="/about" class="button">Learn More</a></li>
+              <li><Link to="/about"><a href="/about" class="button">Learn More</a></Link></li>
           </ul>
         </section>
         <section id="two">
-						<h2>Work Experience</h2>
+						<h2>Recent Work</h2>
 						<div class="row">
 							<article class="col-6 col-12-xsmall work-item">
 								<a href="http://www.ds100.org/fa18/" class="image fit thumb"><img src="images/thumbs/ds100.png" alt="" /></a>
@@ -35,7 +35,7 @@ class Index extends Component {
 							</article>
 						</div>
 						<ul class="actions">
-							<li><a href="/work" class="button">Full Work History</a></li>
+							<li><Link to="/work"><a href="/work" class="button">Full Work History</a></Link></li>
 						</ul>
 			  </section>
       </Main>

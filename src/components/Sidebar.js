@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 
 class Sidebar extends Component {
   render() {
     return (
       <header id="header">
           <div class="inner">
-            <a href="/" class="image avatar"><img src="images/avatar.jpg" alt="" /></a>
+            <Link to="/"><a href="/" class="image avatar"><img src="images/avatar.jpg" alt="" /></a></Link>
             <h1><strong>Caleb Siu</strong><br />
               <strong>calebs11@berkeley.edu</strong><br /></h1>
               <br />
