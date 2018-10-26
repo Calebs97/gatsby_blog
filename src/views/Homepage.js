@@ -4,7 +4,7 @@ import Helmet from 'react-helmet';
 
 import Main from "../containers/Main"
 
-class Index extends Component {
+class Homepage extends Component {
   render() {
     return (
       <Main>
@@ -43,4 +43,4 @@ class Index extends Component {
   }
 }
 
-export default Index;
+export default Homepage;

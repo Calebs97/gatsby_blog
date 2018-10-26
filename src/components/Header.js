@@ -12,6 +12,7 @@ class Header extends Component {
           <li><Link to='/about'>About </Link></li>
           <li><Link to='/work'>Things I've Done </Link></li>
           <li><Link to='/food'>Food </Link></li>
+          <li><Link to='/books'>Books </Link></li>
           <li><Link to='/contact'>Contact</Link></li>
           <li><Link to='/site'>This Site</Link></li>
         </ul>

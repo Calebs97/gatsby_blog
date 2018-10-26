@@ -47,6 +47,7 @@ class Hamburger extends Component {
             <li><Link to='/about'><h3>About</h3></Link></li>
             <li><Link to='/work'><h3>Things I've Done</h3></Link></li>
             <li><Link to='/food'><h3>Food</h3></Link></li>
+            <li><Link to='/books'><h3>Books</h3></Link></li>
             <li><Link to='/contact'><h3>Contact</h3></Link></li>
             <li><Link to='/site'><h3>This Site</h3></Link></li>
           </ul>

@@ -5,24 +5,26 @@ import * as serviceWorker from './serviceWorker';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import createHistory from "history/createBrowserHistory";
 
-import Index from './pages/Index';
-import About from './pages/About';
-import Food from './pages/Food';
-import Work from './pages/Work';
-import Contact from './pages/Contact';
-import Site from './pages/Site';
+import Homepage from './views/Homepage';
+import About from './views/About';
+import Food from './views/Food';
+import Work from './views/Work';
+import Books from './views/Books';
+import Contact from './views/Contact';
+import Site from './views/Site';
+import NotFound from './views/NotFound';
 
 ReactDOM.render(
   <Router history={createHistory({ basename: process.env.PUBLIC_URL })}>
     <Switch>
-      <Route path="/" exact component={Index} />
+      <Route path="/" exact component={Homepage} />
       <Route path={'/about'} component={About} />
       <Route path={'/work'} component={Work} />
       <Route path={'/food'} component={Food} />
+      <Route path={'/books'} component={Books} />
       <Route path={'/contact'} component={Contact} />
-      <Route path={'/work'} component={Work} />
       <Route path={'/site'} component={Site} />
-      {/* <Route component={NotFound} status={404} /> */}
+      <Route component={NotFound} status={404} />
     </Switch>
   </Router>,
   document.getElementById('root'),
