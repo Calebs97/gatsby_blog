@@ -54,7 +54,7 @@ export default class Food extends Component {
               <input id="phone-num" name="phone-num" type="text" placeholder="123456789" required/>
 
               <div style={{marginTop: "2em"}}>
-                <button class="button">Submit</button>
+                <button >Submit</button>
               </div>
             </form>
           </section>
