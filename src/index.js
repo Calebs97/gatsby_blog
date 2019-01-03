@@ -13,6 +13,7 @@ import Books from './views/Books';
 import Contact from './views/Contact';
 import Site from './views/Site';
 import NotFound from './views/NotFound';
+import Success from './views/Success';
 
 ReactDOM.render(
   <Router history={createHistory({ basename: process.env.PUBLIC_URL })}>
@@ -24,6 +25,7 @@ ReactDOM.render(
       <Route path={'/books'} component={Books} />
       <Route path={'/contact'} component={Contact} />
       <Route path={'/site'} component={Site} />
+      <Route path={'/success'} component={Success} />
       <Route component={NotFound} status={404} />
     </Switch>
   </Router>,
